@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Permite usar acentos y ñ -->
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página se vea bien en celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title></title>
+
+    <!-- Fuente de Google Fonts para los títulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Conecta este HTML con el archivo de estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ========== 1. MENÚ ========== -->
+    <header>
+        <div class="logo">GAME <span></span></div>
+
+        <nav>
+            <!-- href="#inicio" lleva a la sección que tenga id="inicio" -->
+            <a href="#inicio">INICIO</a>
+            <a href="#peliculas">VIDEOJUEGOS</a>
+            <a href="#decada">PERFIL</a>
+            </a>
+        </nav>
+    </header>
+
+
+    <!-- ========== 2. PORTADA ========== -->
+    <section id="inicio" class="portada">
+        <!-- ✏️ Cambia los textos por los tuyos -->
+        <h1>REPUBLIC OF<span> GAME </span></h1>
+        <p>¡Te doy la bienvenida a tu nuevo lugar favorito en la red! Aquí no hay pantallas de carga infinitas ni complicaciones: solo los juegos más divertidos, adictivos y variados listos para jugar al instante. Explora nuestra colección, desafía a tus amigos o supera tus propios récords. ¡Prepárate para jugar!| </p>
+        <a href="#peliculas" class="boton">GO</a>
+    </section>
+
+
+    <!-- ========== 3. PELÍCULAS ========== -->
+    <section id="peliculas">
+        <h2>VIDEOJUEGOS <span>DESTACADOS</span></h2>
+
+        <!-- Este contenedor agrupa todas las tarjetas -->
+        <div class="contenedor-tarjetas">
+
+            <!-- Tarjeta 1 -->
+            <div class="tarjeta">
+                <img src="img/VICE.jpg" alt="Póster de Teen Wolf">
+                <h3>Grand Theft Auto: Vice City</h3>
+                <p class="datos"> VIOLENCIA XD</p>
+                <p>Un clásico ochentero repleto de neón, buena música y acción desenfrenada. Encarna a Tommy Vercetti y domina las calles de esta icónica metrópolis tropical.</p>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta">
+                <img src="img/SIMS.jpg" alt="Póster de Bloodsport">
+                <h3> The Sims 2 </h3>
+                <p class="datos"> PLATAFORMA </p>
+                <p> El simulador de vida perfecto donde tú tienes el control total. Crea personajes, construye la casa de tus sueños, gestiona sus emociones y guía sus vidas a través de generaciones. </p>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="tarjeta">
+                <img src="img/SOULS.jpg" alt="Póster de Los Cazafantasmas">
+                <h3> Dark Souls II</h3>
+                <p class="datos"> AVENTURA </p>
+                <p> Un desafiante RPG de acción donde la paciencia y la precisión lo son todo. Explora el sombrío reino de Drangleic y supera batallas brutales donde cada error se paga caro. </p>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="tarjeta">
+                <img src="img/FF.jpg" alt="Póster de Gremlins">
+                <h3>FINAL FANTASY</h3>
+                <p class="datos"> AVENTURA </p>
+                <p> Un desafiante RPG de acción donde la paciencia y la precisión lo son todo. Explora el sombrío reino de Drangleic y supera batallas brutales donde cada error se paga caro.</p>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="tarjeta">
+                <img src="img/WOW.jpg" alt="Póster de El Karate Kid">
+                <h3>WOW</h3>
+                <p class="datos"> MAGIA</p>
+                <p> El MMORPG definitivo que definió a toda una generación. Explora el vasto mundo de Azeroth, elige tu facción, completa misiones épicas e intégrate a una comunidad legendaria.</p>
+            </div>
+
+            <!-- ✏️ RETO: copia una tarjeta completa, pégala aquí abajo
+                 y cámbiala por tu película favorita. -->
+
+        </div>
+    </section>
+
+
+    <!-- ========== 4. LA DÉCADA ========== -->
+    <section id="decada">
+        <h2>PERFIL<span>      CODA</span></h2>
+        <p>
+            Revisa tus estadísticas de victoria, mira qué trofeos has desbloqueado y presume tu posición en la tabla de clasificación frente a la comunidad
+        </p>
+    </section>
+
+
+    <!-- ========== 5. PIE DE PÁGINA ========== -->
+    <footer>
+        <p>REPUBLIC OF GAME © 2026</p>
+    </footer>
+
+</body>
+
+</html>
